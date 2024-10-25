@@ -1,0 +1,30 @@
+/* .container{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+   background-color: cadetblue;
+   width: 300px;
+   height: 400px;
+}
+
+.starter{
+    margin-left: 50px;
+    margin-top: 180px;
+} */
+
+/* GPT CORRECTED */
+.container {
+    margin: auto;
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    background-color: cadetblue;
+    width: 300px;
+    height: 400px;
+}
+
+.starter {
+    text-align: center; /* Center the text inside the starter class */
+    margin: 0; /* Remove margin to better center the heading */
+}
